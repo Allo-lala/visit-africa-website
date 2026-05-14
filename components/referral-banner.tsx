@@ -24,12 +24,6 @@ export function ReferralBanner() {
           transition={{ duration: 0.6 }}
           className="max-w-3xl"
         >
-          <div className="inline-flex items-center gap-2 bg-[#d4a853]/20 border border-[#d4a853]/30 text-[#d4a853] px-4 py-2 rounded-full mb-6">
-            <Gift className="w-5 h-5" />
-            <span className="font-[Inter,sans-serif] text-sm font-medium">
-              Referral Program
-            </span>
-          </div>
 
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-serif font-bold text-white mb-6 leading-tight">
             Give $100 to a Friend

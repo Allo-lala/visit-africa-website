@@ -237,11 +237,7 @@ export function Hero() {
                 </div>
               </div>
             </div>
-
-            <Button className="w-full md:w-auto md:px-12 py-6 bg-[#1a472a] hover:bg-[#2a5a3a] text-white text-lg font-medium rounded-xl transition-all duration-300 shadow-lg hover:shadow-xl font-[Inter,sans-serif]">
-              <Search className="w-5 h-5 mr-2" />
-              Search Trips
-            </Button>
+            
           </div>
         </motion.div>
 

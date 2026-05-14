@@ -132,7 +132,7 @@ export function Destinations() {
           className="text-center mt-12"
         >
           <button className="inline-flex items-center gap-2 px-8 py-4 border-2 border-[#1a472a] text-[#1a472a] hover:bg-[#1a472a] hover:text-white rounded-xl font-medium font-[Inter,sans-serif] transition-all duration-300">
-            View All Destinations
+            View All Destinations 
             <ArrowRight className="w-5 h-5" />
           </button>
         </motion.div>

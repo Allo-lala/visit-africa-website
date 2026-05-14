@@ -23,7 +23,7 @@ export function AuthModal({ isOpen, onClose }: AuthModalProps) {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     // Handle form submission
-    console.log("[v0] Auth form submitted:", { email, password, name, view });
+    console.log(" Auth form submitted:", { email, password, name, view });
   };
 
   return (

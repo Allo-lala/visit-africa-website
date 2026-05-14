@@ -108,7 +108,6 @@ export function Navigation() {
                 }`}
                 aria-label="Search"
               >
-                <Search className="w-5 h-5" />
               </button>
               <button
                 onClick={() => setIsAuthModalOpen(true)}
@@ -119,7 +118,7 @@ export function Navigation() {
                 }`}
               >
                 <User className="w-5 h-5" />
-                <span>Traveller Login</span>
+                <span>Login</span>
               </button>
               <Button className="bg-[#d4a853] hover:bg-[#c49743] text-[#1a472a] font-medium font-[Inter,sans-serif] px-6 py-2 rounded-full">
                 Plan Your Trip
@@ -175,7 +174,7 @@ export function Navigation() {
                     className="flex items-center gap-2 py-3 text-[#1a472a] font-medium font-[Inter,sans-serif]"
                   >
                     <User className="w-5 h-5" />
-                    Traveller Login
+                    Login
                   </button>
                   <Button className="w-full bg-[#d4a853] hover:bg-[#c49743] text-[#1a472a] font-medium font-[Inter,sans-serif] py-3 rounded-xl mt-2">
                     Plan Your Trip
